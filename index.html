@@ -7,10 +7,13 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
-    <script src="index.js"></script>
     <title>JS Drum Kit</title>
 </head>
 <body>
+    <script src="index.js"></script>
+    <div class="container">
+        <h1>DRUM KIT</h1>
+        <p>(Try pressing the given keys)</p>
     <div class="keys">
         <div data-key="65" class="key">
             <kbd>A</kbd>
@@ -48,6 +51,7 @@
             <kbd>L</kbd>
             <span class="sound">TINK</span>
         </div>
+    </div>
     </div>
 
     <audio data-key="65" src="./Assets/Sounds/clap.wav"></audio>
