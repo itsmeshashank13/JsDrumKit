@@ -38,6 +38,7 @@ document.addEventListener('keydown', (event) => {
   if (keyElement) {
     keyElement.classList.add('playing');
     const soundElement = document.querySelector(`audio[data-key="${keyCode}"]`);
+    soundElement.currentTime = 0;
     soundElement.play();
   }
 });
